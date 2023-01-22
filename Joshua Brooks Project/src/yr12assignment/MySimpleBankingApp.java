@@ -79,6 +79,8 @@ public class MySimpleBankingApp {
                         System.out.println("Please input your next choice? ");
                         break;
                     case 'E':
+                    System.out.println("Thank you for using this banking application!");
+                    System.out.println("Have a good day!");
                     quit = true;
                     // since quit has been set to false at the start, when 'D' is input by the user, the program will stop.
                     break;
